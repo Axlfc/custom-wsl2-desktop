@@ -1,0 +1,1 @@
+wsl nohup nemo "/mnt/c/Users/Axel F C/Desktop" >nul 2>&1; 
