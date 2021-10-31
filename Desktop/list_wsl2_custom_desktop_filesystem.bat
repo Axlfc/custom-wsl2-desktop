@@ -1,0 +1,1 @@
+wsl desk=$(pwd) ; cd /home/axl/Desktop; programs_list=$(ls); for program in ${programs_list[@]}^; do name="$(echo ${program} | rev | cut -d "." -f2 | rev)"; path="${desk}/${program}"; badpath="/home/axl/Desktop"; echo $( if [ -d "${badpath}/${name}" ]; then echo "${name}_folder"; else echo "${name}"; fi ); done; read perro; 

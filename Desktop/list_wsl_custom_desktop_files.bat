@@ -1,1 +1,0 @@
-wsl desk=$(pwd) ; cd /home/axl/Desktop; programs_list=$(ls); for program in ${programs_list[@]}^; do echo ${program}^; done; read perro; 
